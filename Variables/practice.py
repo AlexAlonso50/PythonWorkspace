@@ -52,7 +52,7 @@ print(varTwo)
 
 b = [a, varA, var]
 
-list = ["a", "b", "c"]
+List = ["a", "b", "c"]
 
 print(list)
 print(list[0])
@@ -63,7 +63,7 @@ print(listVar)
 
 string = "alex"
 
-print(string[0]
+print(string[0])
       
 print(5)
 print("string")

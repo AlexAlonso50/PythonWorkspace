@@ -779,3 +779,6 @@ user global configuration and to define the default location to store repositori
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.python.pydev.shared_core 4 4 2020-11-21 20:06:43.550
+!MESSAGE Info: Rebuilding internal caches: C:\Users\ITAUser\Desktop\Python\.metadata\.plugins\org.eclipse.core.resources\.projects\mathematicalOperators\com.python.pydev.analysis\AdditionalProjectInterpreterInfo.pydevinfo (Expected error to be provided and got no error!)

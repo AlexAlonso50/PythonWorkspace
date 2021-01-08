@@ -49,8 +49,9 @@
           <tags>persp.showIn:org.python.pydev.navigator.view</tags>
           <tags>persp.showIn:org.eclipse.ui.navigator.ProjectExplorer</tags>
           <tags>persp.showIn:org.eclipse.ui.views.ContentOutline</tags>
-          <children xsi:type="basic:PartSashContainer" xmi:id="_RdVTBhWZEeu_JLsPWY_9OQ" selectedElement="_RdVTCRWZEeu_JLsPWY_9OQ" horizontal="true">
+          <children xsi:type="basic:PartSashContainer" xmi:id="_RdVTBhWZEeu_JLsPWY_9OQ" selectedElement="_RdVTBxWZEeu_JLsPWY_9OQ" horizontal="true">
             <children xsi:type="basic:PartStack" xmi:id="_RdVTBxWZEeu_JLsPWY_9OQ" elementId="topLeft" containerData="2600" selectedElement="_RdVTCBWZEeu_JLsPWY_9OQ">
+              <tags>active</tags>
               <children xsi:type="advanced:Placeholder" xmi:id="_RdVTCBWZEeu_JLsPWY_9OQ" elementId="org.python.pydev.navigator.view" ref="_RdTd0BWZEeu_JLsPWY_9OQ" closeable="true">
                 <tags>View</tags>
                 <tags>categoryTag:PyDev</tags>
@@ -129,7 +130,6 @@
       <children xsi:type="basic:PartStack" xmi:id="_RdPMYRWZEeu_JLsPWY_9OQ" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_rkDOUFBfEeu9QPDtFqVusg">
         <tags>org.eclipse.e4.primaryDataStack</tags>
         <tags>EditorStack</tags>
-        <tags>active</tags>
         <children xsi:type="basic:Part" xmi:id="_l8T4oBWZEeu_JLsPWY_9OQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="helloWorld" iconURI="platform:/plugin/org.python.pydev.shared_ui/icons/python_file.gif" closeable="true">
           <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.python.pydev.editor.PythonEditor&quot; name=&quot;helloWorld.py&quot; partName=&quot;helloWorld&quot; title=&quot;helloWorld&quot; tooltip=&quot;helloWorld/helloWorld.py&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/helloWorld/helloWorld.py&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;78&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
@@ -249,8 +249,6 @@
           <tags>Editor</tags>
           <tags>removeOnHide</tags>
           <tags>org.python.pydev.editor.PythonEditor</tags>
-          <tags>active</tags>
-          <tags>activeOnClose</tags>
         </children>
       </children>
     </sharedElements>
@@ -260,6 +258,8 @@
       <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view CommonNavigator.LINKING_ENABLED=&quot;0&quot; org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets=&quot;0&quot;>&#xD;&#xA;&lt;expanded IMemento.internal.id=&quot;C:/Users/ITAUser/Desktop/Python/alex&quot;/>&#xD;&#xA;&lt;expanded IMemento.internal.id=&quot;C:/Users/ITAUser/Desktop/Python/comments&quot;/>&#xD;&#xA;&lt;expanded IMemento.internal.id=&quot;C:/Users/ITAUser/Desktop/Python/ComparisonOperators&quot;/>&#xD;&#xA;&lt;expanded IMemento.internal.id=&quot;C:/Users/ITAUser/Desktop/Python/finallyDone&quot;/>&#xD;&#xA;&lt;expanded IMemento.internal.id=&quot;C:/Users/ITAUser/Desktop/Python/helloWorld&quot;/>&#xD;&#xA;&lt;expanded IMemento.internal.id=&quot;C:/Users/ITAUser/Desktop/Python/input&quot;/>&#xD;&#xA;&lt;expanded IMemento.internal.id=&quot;C:/Users/ITAUser/Desktop/Python/mathematicalOperators&quot;/>&#xD;&#xA;&lt;expanded IMemento.internal.id=&quot;C:/Users/ITAUser/Desktop/Python/practiceProject&quot;/>&#xD;&#xA;&lt;expanded IMemento.internal.id=&quot;C:/Users/ITAUser/Desktop/Python/Variables&quot;/>&#xD;&#xA;&lt;selected IMemento.internal.id=&quot;C:/Users/ITAUser/Desktop/Python/ComparisonOperators/debugComparisonOperatorsV1.py&quot;/>&#xD;&#xA;&lt;lastRecentlyUsedFilters/>&#xD;&#xA;&lt;/view>"/>
       <tags>View</tags>
       <tags>categoryTag:PyDev</tags>
+      <tags>active</tags>
+      <tags>activeOnClose</tags>
       <menus xmi:id="_Ri-A8BWZEeu_JLsPWY_9OQ" elementId="org.python.pydev.navigator.view">
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
@@ -321,7 +321,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_RX9q0BWZEeu_JLsPWY_9OQ" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_Aw1ucFBbEeu9QPDtFqVusg" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_QibxKhWZEeu_JLsPWY_9OQ"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_Nu3WEFIGEeug45lDQL83Ow" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_QibxKhWZEeu_JLsPWY_9OQ"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_RX-R4BWZEeu_JLsPWY_9OQ" elementId="group.edit" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -349,7 +349,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_RX-R5xWZEeu_JLsPWY_9OQ" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_Aw4KsFBbEeu9QPDtFqVusg" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_QiZ76RWZEeu_JLsPWY_9OQ"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_Nu5yUlIGEeug45lDQL83Ow" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_QiZ76RWZEeu_JLsPWY_9OQ"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_RX-R6BWZEeu_JLsPWY_9OQ" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -1718,7 +1718,7 @@
   <addons xmi:id="_Qh17NxWZEeu_JLsPWY_9OQ" elementId="MinMax Addon" contributorURI="platform:/plugin/org.eclipse.ui.workbench" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.minmax.MinMaxAddon"/>
   <addons xmi:id="_Qh17OBWZEeu_JLsPWY_9OQ" elementId="org.eclipse.ui.workbench.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.workbench" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon"/>
   <addons xmi:id="_QiCIYBWZEeu_JLsPWY_9OQ" elementId="SplitterAddon" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.splitteraddon.SplitterAddon"/>
-  <addons xmi:id="_IYS0IKimEeS11vbz3f9ezw" elementId="org.eclipse.ui.ide.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.ide" contributionURI="bundleclass://org.eclipse.ui.ide/org.eclipse.ui.internal.ide.addons.SaveAllDirtyPartsAddon"/>
+  <addons xmi:id="_NC5A4FIGEeug45lDQL83Ow" elementId="org.eclipse.ui.ide.addon.0" contributionURI="bundleclass://org.eclipse.ui.ide/org.eclipse.ui.internal.ide.addons.SaveAllDirtyPartsAddon"/>
   <addons xmi:id="_dz0JgGOlEeSMMaPQU2nlzw" elementId="org.eclipse.ui.ide.application.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" contributionURI="bundleclass://org.eclipse.ui.ide.application/org.eclipse.ui.internal.ide.application.addons.ModelCleanupAddon"/>
   <categories xmi:id="_QiUcQBWZEeu_JLsPWY_9OQ" elementId="org.eclipse.team.ui.category.team" name="Team" description="Actions that apply when working with a Team"/>
   <categories xmi:id="_QiUcQRWZEeu_JLsPWY_9OQ" elementId="org.eclipse.ui.category.views" name="Views" description="Commands for opening views"/>

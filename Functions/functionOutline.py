@@ -16,8 +16,8 @@ def trueToFalse(t, c):
     
     
 trueToFalse(True)
-
 print(True)
+
 #2) Make a function that takes one int parameter: gallons. Convert gallons
 #to cups (do this by multiplying gallons by 16). Then return cups. Then,
 #call the function.
@@ -43,7 +43,6 @@ def sumTwoNums(numOne, numTwo):
 a = 2
 z = 4
 num = sumTwoNums(a, z)
-
 print(num)
 
 
